@@ -1,0 +1,20 @@
+current directory: C:/RailsWorkspace/sample_app/vendor/bundle/ruby/2.5.0/gems/byebug-11.0.1/ext/byebug
+C:/Ruby25-x64/bin/ruby.exe -I C:/Ruby25-x64/lib/ruby/site_ruby/2.5.0 -r ./siteconf20190501-7412-15hzuxg.rb extconf.rb
+creating Makefile
+
+current directory: C:/RailsWorkspace/sample_app/vendor/bundle/ruby/2.5.0/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" clean
+
+current directory: C:/RailsWorkspace/sample_app/vendor/bundle/ruby/2.5.0/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR="
+generating byebug-x64-mingw32.def
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: C:/RailsWorkspace/sample_app/vendor/bundle/ruby/2.5.0/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20190501-7412-16qztz5/byebug

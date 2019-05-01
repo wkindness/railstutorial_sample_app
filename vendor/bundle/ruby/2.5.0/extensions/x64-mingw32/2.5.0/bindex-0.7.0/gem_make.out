@@ -1,0 +1,16 @@
+current directory: C:/RailsWorkspace/sample_app/vendor/bundle/ruby/2.5.0/gems/bindex-0.7.0/ext/skiptrace
+C:/Ruby25-x64/bin/ruby.exe -I C:/Ruby25-x64/lib/ruby/site_ruby/2.5.0 -r ./siteconf20190501-7412-8tcfp4.rb extconf.rb
+creating Makefile
+
+current directory: C:/RailsWorkspace/sample_app/vendor/bundle/ruby/2.5.0/gems/bindex-0.7.0/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: C:/RailsWorkspace/sample_app/vendor/bundle/ruby/2.5.0/gems/bindex-0.7.0/ext/skiptrace
+make "DESTDIR="
+generating cruby-x64-mingw32.def
+compiling cruby.c
+linking shared-object skiptrace/cruby.so
+
+current directory: C:/RailsWorkspace/sample_app/vendor/bundle/ruby/2.5.0/gems/bindex-0.7.0/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20190501-7412-1mln7i/skiptrace
