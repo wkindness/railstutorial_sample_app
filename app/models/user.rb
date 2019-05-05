@@ -13,8 +13,8 @@ class User < ApplicationRecord
                     uniqueness: { case_sensitive: false }
   # セキュアなpassword
   has_secure_password
-  # passwordは必須、6文字以上
-  validates :password, presence: true, length: { minimum: 6 }
+  # passwordは必須、6文字以上、更新時は空許可
+  validates :password, presence: true, length: { minimum: 6 }, allow_nil: true
 
   # 渡された文字列のハッシュ値を返す
   def User.digest(string)
