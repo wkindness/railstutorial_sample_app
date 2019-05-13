@@ -1,0 +1,17 @@
+current directory: C:/RailsWorkspace/sample_app/vendor/bundle/ruby/2.5.0/gems/unf_ext-0.0.7.6/ext/unf_ext
+C:/Ruby25-x64/bin/ruby.exe -I C:/Ruby25-x64/lib/ruby/site_ruby/2.5.0 -r ./siteconf20190512-5916-1kkk2f.rb extconf.rb
+checking for -lstdc++... yes
+creating Makefile
+
+current directory: C:/RailsWorkspace/sample_app/vendor/bundle/ruby/2.5.0/gems/unf_ext-0.0.7.6/ext/unf_ext
+make "DESTDIR=" clean
+
+current directory: C:/RailsWorkspace/sample_app/vendor/bundle/ruby/2.5.0/gems/unf_ext-0.0.7.6/ext/unf_ext
+make "DESTDIR="
+generating unf_ext-x64-mingw32.def
+compiling unf.cc
+linking shared-object unf_ext.so
+
+current directory: C:/RailsWorkspace/sample_app/vendor/bundle/ruby/2.5.0/gems/unf_ext-0.0.7.6/ext/unf_ext
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 unf_ext.so ./.gem.20190512-5916-3dwrg2

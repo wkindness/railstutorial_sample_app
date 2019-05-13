@@ -1,0 +1,13 @@
+current directory: C:/RailsWorkspace/sample_app/vendor/bundle/ruby/2.5.0/gems/json-2.2.0/ext/json
+C:/Ruby25-x64/bin/ruby.exe -I C:/Ruby25-x64/lib/ruby/site_ruby/2.5.0 -r ./siteconf20190512-5916-1uhxlc7.rb extconf.rb
+creating Makefile
+
+current directory: C:/RailsWorkspace/sample_app/vendor/bundle/ruby/2.5.0/gems/json-2.2.0/ext/json
+make "DESTDIR=" clean
+
+current directory: C:/RailsWorkspace/sample_app/vendor/bundle/ruby/2.5.0/gems/json-2.2.0/ext/json
+make "DESTDIR="
+make: 'all' に対して行うべき事はありません.
+
+current directory: C:/RailsWorkspace/sample_app/vendor/bundle/ruby/2.5.0/gems/json-2.2.0/ext/json
+make "DESTDIR=" install

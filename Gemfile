@@ -27,9 +27,6 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '3.1.12'
 
-# Use ActiveStorage variant
-# gem 'mini_magick', '~> 4.8'
-
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -39,7 +36,10 @@ gem 'bootsnap', '>= 1.1.0', require: false
 # テスト用のダミーデータ作成gem
 # ※通常は開発環境のみにするが、本番でもテストするので今回は全体に適用する
 gem 'faker', '1.9.1'
-
+# 画像アップローダー
+gem 'carrierwave',             '1.2.2'
+# 画像リサイズ
+gem 'mini_magick',             '~> 4.8'
 # ページネーション用gem
 gem 'will_paginate',           '3.1.7'
 gem 'bootstrap-will_paginate', '1.0.0'
@@ -63,6 +63,11 @@ group :test do
   gem 'minitest-reporters',       '1.1.14'
   gem 'guard',                    '2.13.0'
   gem 'guard-minitest',           '2.4.4'
+end
+
+group :production do
+  # 本番環境で画像アップロードするため
+  gem 'fog-aws'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
